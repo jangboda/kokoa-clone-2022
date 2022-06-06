@@ -5,21 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kokoa talk</title>
+    <link rel="stylesheet" href="style.css">
+
+   
 </head>
 <body>
     <div id="status-bar">
-        <div class = "status-bar__column"></div>
-        <span>No service</span><!-- wifi need Icon-->
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path></svg>
-
-        <div class = "status-bar__column"></div>
+        <div class = "status-bar_column"></div>
+        <span>No service</span>
+        <!-- wifi need Icon-->
+        <i class="fas fa-wifi"></i>
+        <div class = "status-bar_column"></div>
         <span>18:45</span>
-        <div class = "status-bar__column"></div>
-         <span>110%</span> 
-         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        <div class = "status-bar_column"></div>
+         <span>80%</span> 
+        
+         <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
          <!--batter Icon-->
          <!--Lightning Icon-->
          <!-- at the kakao talk login pages of top there is three span on the top that's why we are making 3 span-->
     </div>
+    <script
+         src="https://kit.fontawesome.com/6478f529f2.js"
+         crossorigin="anonymous">
+    
+    </script>
+    <form id="header__login">
+  <input type ="text" placeholder="email or phone number" 30px;>
+  <input type= "text" placeholder="Password" 30px;>
+  <input type="submit" value=login >
+    </form> 
+    
+
+<header>
+    <h1 class = "kokoa__header"> Welcome to kokoatalk</h1>
+    <p class ="kokoa__text">If you have a kokoa account log in with your email or phone number </p>
+</header>
+
 </body>
 </html>
